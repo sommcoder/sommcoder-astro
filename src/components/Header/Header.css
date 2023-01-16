@@ -1,0 +1,18 @@
+.header {
+  justify-content: center;
+  font-family: "Major Mono Display", sans-serif;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 610px) {
+  header {
+    font-size: 3.5rem;
+  }
+}
+
+.header:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: 200ms ease-in-out;
+  transform: translateY(-2.5px);
+}

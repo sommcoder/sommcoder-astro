@@ -1,0 +1,10 @@
+.nav-container-left {
+  display: grid;
+  margin: auto;
+  justify-content: left;
+  width: 100%;
+}
+
+.nav-container-left:hover {
+  cursor: pointer;
+}

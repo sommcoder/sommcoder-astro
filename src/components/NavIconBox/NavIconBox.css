@@ -1,0 +1,19 @@
+.nav-icon-box {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  a {
+    display: inline-block;
+    margin: 0rem 1rem;
+  }
+  img {
+    height: 55px;
+    width: 55px;
+    filter: brightness(150%);
+  }
+  .nav-icon-box:hover {
+    cursor: pointer;
+    filter: brightness(125%);
+  }
+}
