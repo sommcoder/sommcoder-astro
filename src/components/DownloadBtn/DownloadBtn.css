@@ -1,0 +1,20 @@
+.download-button {
+  margin-left: 1rem;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .download-button {
+    display: inline-block;
+  }
+}
+
+a {
+  color: black;
+}
+
+img {
+  height: 15px;
+  width: 15px;
+  margin: 0 0.5rem 0 0.5rem;
+}
