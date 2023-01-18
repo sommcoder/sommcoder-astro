@@ -1,16 +1,12 @@
-﻿import styled from "styled-components";
+﻿import "./IntroDescription.css";
 
 export default function IntroDescription() {
   return (
-    <StyledIntroDescription>
+    <div className="intro-description">
       I'm a wine sommelier turned web developer based in Toronto, ON, Canada.
       <br />
       I'm a hospitality pro with over 12 years of experience. <br /> I
       specialize in software integrations for Hospitality enterprices!
-    </StyledIntroDescription>
+    </div>
   );
 }
-const StyledIntroDescription = styled.div`
-  align-self: center;
-  grid-column: span 2;
-`;

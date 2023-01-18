@@ -1,0 +1,15 @@
+/* .overlay-nav-list {
+
+    
+} */
+
+li {
+  font-size: 2rem;
+  color: black;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+li:hover {
+  cursor: pointer;
+}

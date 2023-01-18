@@ -4,7 +4,9 @@ import NavIconBox from "../NavIconBox/NavIconBox";
 
 // icons:
 import linkedin from "../../../public/images/linkedin.svg";
-import github from "../../../public/images/gitub.svg";
+import github from "../../../public/images/github.svg";
+
+import "./NavRightContainer.css";
 
 export default function NavRightContainer() {
   const icons = [

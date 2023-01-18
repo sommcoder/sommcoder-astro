@@ -1,0 +1,23 @@
+.carousel-section {
+  display: grid;
+  margin: 5rem 2rem 5rem 2rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+/*
+min needs to be large enough to accommodate the px of the img tags in CarouselItem
+
+
+Mobile users should just be able to scroll down through the projects, but Desktop users will have arrows and a proper Carousel setup to scroll through the CarouselItems
+
+We will have to wrap the grid code above in a media query to show what we need for Desktop Users.
+
+min-width is a mobile first approach!!
+@media (min-width: 500px) {
+}
+
+we need to have the carousel items appear as if they are cycling through the page
+ 
+ 
+*/

@@ -1,8 +1,9 @@
-﻿import styled from "styled-components";
+﻿import "./CarouselSection.css";
+
 import CarouselItem from "../CarouselItem/CarouselItem";
-import wordle from "../../assets/images/wordle.svg";
-import markey from "../../assets/images/mar-key.svg";
-import sommcoder from "../../assets/images/sommcoder.svg";
+import wordle from "../../../public/images/wordle.svg";
+import markey from "../../../public/images/mar-key.svg";
+import sommcoder from "../../../public/images/sommcoder.svg";
 
 export default function CarouselSection() {
   // we should useEffect to fetch public git repositories and post them here. Or use React Query and query our server API!!! Or are we gunna use Astro????
@@ -58,7 +59,7 @@ export default function CarouselSection() {
   ];
 
   return (
-    <StyledCarouselSection>
+    <div className="carousel-section">
       {items.map(({ thumbnail, link, title, short }) => (
         <CarouselItem
           thumbnail={thumbnail}
@@ -68,25 +69,6 @@ export default function CarouselSection() {
           link={link}
         />
       ))}
-    </StyledCarouselSection>
+    </div>
   );
 }
-const StyledCarouselSection = styled.div`
-  display: grid;
-  margin: 5rem 2rem 5rem 2rem;
-  grid-row-gap: 2rem;
-  grid-column-gap: 2rem;
-  // min needs to be large enough to accommodate the px of the img tags in CarouselItem
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-
-  // Mobile users should just be able to scroll down through the projects, but Desktop users will have arrows and a proper Carousel setup to scroll through the CarouselItems
-
-  // We will have to wrap the grid code above in a media query to show what we need for Desktop Users.
-
-  // min-width is a mobile first approach!!
-  /* @media (min-width: 500px) {
-    
-  } */
-
-  // we need to have the carousel items appear as if they are cycling through the page
-`;

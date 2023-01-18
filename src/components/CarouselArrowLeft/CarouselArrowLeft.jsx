@@ -1,5 +1,5 @@
 ﻿import "./CarouselArrowLeft.css";
 
 export default function CarouselArrowLeft() {
-  return <div className="carousel-arrow-left"></div>;
+  return <span className="carousel-arrow-left"></span>;
 }

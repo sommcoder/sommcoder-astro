@@ -1,25 +1,13 @@
-﻿import styled from "styled-components";
+﻿import "./OverlayNavList.css";
 
 export default function OverlayNavList() {
   const NavItems = ["Github", "LinkedIn"];
 
   return (
-    <StyledOverlayNavList>
+    <ul className="overlay-nav-list">
       {NavItems.map((item, i) => (
         <li key={i}>{item}</li>
       ))}
-    </StyledOverlayNavList>
+    </ul>
   );
 }
-const StyledOverlayNavList = styled.ul`
-  li {
-    font-size: 2rem;
-    color: black;
-    list-style: none;
-    margin-top: 0.5rem;
-
-    &:hover {
-      cursor: pointer;
-    }
-  }
-`;

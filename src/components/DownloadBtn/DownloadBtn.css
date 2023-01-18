@@ -9,11 +9,11 @@
   }
 }
 
-a {
+.download-link {
   color: black;
 }
 
-img {
+.download-icon {
   height: 15px;
   width: 15px;
   margin: 0 0.5rem 0 0.5rem;
