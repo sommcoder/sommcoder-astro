@@ -1,9 +1,9 @@
 ﻿import "./CarouselSection.css";
 
 import CarouselItem from "../CarouselItem/CarouselItem";
-import wordle from "../../../public/images/wordle.svg";
-import markey from "../../../public/images/mar-key.svg";
-import sommcoder from "../../../public/images/sommcoder.svg";
+import wordle from "../../../../public/images/wordle.svg";
+import markey from "../../../../public/images/mar-key.svg";
+import sommcoder from "../../../../public/images/sommcoder.svg";
 
 export default function CarouselSection() {
   // we should useEffect to fetch public git repositories and post them here. Or use React Query and query our server API!!! Or are we gunna use Astro????

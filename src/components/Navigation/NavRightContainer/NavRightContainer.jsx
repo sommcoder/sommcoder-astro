@@ -3,8 +3,8 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import NavIconBox from "../NavIconBox/NavIconBox";
 
 // icons:
-import linkedin from "../../../public/images/linkedin.svg";
-import github from "../../../public/images/github.svg";
+import linkedin from "../../../../public/images/linkedin.svg";
+import github from "../../../../public/images/github.svg";
 
 import "./NavRightContainer.css";
 

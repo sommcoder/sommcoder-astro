@@ -1,6 +1,6 @@
 ﻿import IntroContainer from "../IntroContainer/IntroContainer";
 import HeroGraphic from "../HeroGraphic/HeroGraphic";
-import LoadingEllipsis from "../LoadingEllipsis/LoadingEllipsis";
+import LoadingEllipsis from "../../Utility/LoadingEllipsis/LoadingEllipsis";
 
 import "./HeroSection.css";
 

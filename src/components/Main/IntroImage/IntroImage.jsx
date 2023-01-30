@@ -1,5 +1,5 @@
 ﻿import "./IntroImage.css";
-import headshot from "../../assets/images/headshot.png";
+import headshot from "../../../assets/images/headshot.png";
 
 export default function IntroImage() {
   return (

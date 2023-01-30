@@ -1,4 +1,4 @@
-﻿import wine from "../../../public/images/wine-stain.svg";
+﻿import wine from "../../../../public/images/wine-stain.svg";
 import "./HeroGraphic.css";
 
 export default function HeroGraphic() {

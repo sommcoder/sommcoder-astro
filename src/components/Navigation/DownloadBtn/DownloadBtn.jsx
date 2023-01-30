@@ -1,5 +1,5 @@
-﻿import downloadIcon from "../../../public/images/download-solid.svg";
-import cv from "../../../public/pdf/Brian - Resume.pdf";
+﻿import downloadIcon from "../../../../public/images/download-solid.svg";
+import cv from "../../../../public/pdf/Brian - Resume.pdf";
 
 import "./DownloadBtn.css";
 
