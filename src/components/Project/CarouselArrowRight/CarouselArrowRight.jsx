@@ -1,4 +1,5 @@
 ﻿import "./CarouselArrowRight.css";
+
 export default function CarouselArrowRight() {
-  return <span></span>;
+  return <span className="carousel-arrow-right"></span>;
 }

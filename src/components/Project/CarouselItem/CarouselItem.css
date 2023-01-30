@@ -27,8 +27,8 @@ should adjust this  to a gif or short video asset!
 }
 
 .carousel-item-img {
-  max-height: 210px;
-  max-width: 210px;
+  max-height: 200px;
+  max-width: 200px;
   height: auto;
   width: auto;
   border-radius: 10px;
