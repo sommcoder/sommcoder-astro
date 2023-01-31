@@ -9,6 +9,12 @@ html {
   overflow: auto;
 }
 
+@font-face {
+  font-family: "Major Mono Display";
+  src: local("Major Mono Display");
+  src: url("/fonts/MajorMonoDisplay-Regular.ttf") format("regular");
+}
+
 body {
   height: 100%;
   max-width: 100%;

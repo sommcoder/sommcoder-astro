@@ -4,8 +4,8 @@ import IntroHeader from "../IntroHeader/IntroHeader";
 
 import "./IntroContainer.css";
 
-import wineDrip from "../../../assets/images/wine-drips.svg";
-import wineDrip2 from "../../../assets/images/wine-drips2.svg";
+import wineDrip from "../../../../public/images/wine-drips.svg";
+import wineDrip2 from "../../../../public/images/wine-drips2.svg";
 
 import { lazy } from "react";
 

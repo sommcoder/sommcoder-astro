@@ -10,14 +10,14 @@
   margin-left: 1rem;
 }
 
-img {
+/* img {
   display: inline-block;
   height: 205px;
   width: 205px;
   margin-left: 0.25rem;
   clip-path: circle(50% at 50% 50%);
   transform: translateY(2px);
-}
+} */
 
 @media (max-width: 475px) {
   .intro-image-headshot {
