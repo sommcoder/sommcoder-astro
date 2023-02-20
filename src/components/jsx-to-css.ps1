@@ -10,12 +10,12 @@ Foreach ($d in $dir)
     
     Foreach ($jsxFile in $jsxFiles)
     {
-       $astroFileName = ($jsxFile.FullName).Replace(".jsx",".astro")
-        $astroFileExists = Test-Path $astroFileName
-        if ($astroFileExists -eq $false)
+       $cssFileName = ($jsxFile.FullName).Replace(".jsx",".css")
+        $cssFileExists = Test-Path $cssFileName
+        if ($cssFileExists -eq $false)
         {
-            New-Item $astroFileName -ItemType File
-             Write-Output "import './$($jsxFile.FullName -replace ".jsx", ".astro")';"
+            New-Item $cssFileName -ItemType File
+             Write-Output "import './$($jsxFile.FullName -replace ".jsx", ".css")';"
         }
     }
 }

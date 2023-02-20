@@ -1,10 +1,7 @@
 .nav-container-left {
   display: grid;
+  position: static;
   margin: auto;
   justify-content: left;
   width: 100%;
-}
-
-.nav-container-left:hover {
-  cursor: pointer;
 }

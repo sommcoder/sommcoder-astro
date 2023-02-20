@@ -9,8 +9,13 @@
   transform: translateY(-2.5px);
 }
 
-@media screen and (min-width: 610px) {
+.header-image-logo {
+  height: 300px;
+  width: 300px;
+}
+
+/* @media screen and (min-width: 610px) {
   .header {
     transform: scale(80%);
   }
-}
+} */
