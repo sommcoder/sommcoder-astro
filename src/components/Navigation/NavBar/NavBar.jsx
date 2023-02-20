@@ -1,7 +1,7 @@
 ﻿import NavLeftContainer from "../NavLeftContainer/NavLeftContainer";
 import NavRightContainer from "../NavRightContainer/NavRightContainer";
 
-import "./NavBar.css";
+// import "./NavBar.css";
 
 export default function NavBar() {
   const style = {

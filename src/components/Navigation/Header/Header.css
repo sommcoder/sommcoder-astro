@@ -2,6 +2,11 @@
   justify-content: center;
 }
 
+.header-image-logo {
+  width: 200px;
+  height: auto;
+}
+
 .header:hover {
   cursor: pointer;
   filter: brightness(85%);
@@ -9,13 +14,12 @@
   transform: translateY(-2.5px);
 }
 
-.header-image-logo {
-  height: 300px;
-  width: 300px;
-}
-
-/* @media screen and (min-width: 610px) {
+@media screen and (min-width: 610px) {
   .header {
     transform: scale(80%);
   }
-} */
+
+  .header-image-logo {
+    transform: scale(80%);
+  }
+}

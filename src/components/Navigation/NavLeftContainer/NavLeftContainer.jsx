@@ -17,6 +17,7 @@ export default function NavLeftContainer() {
   return (
     <span
       className="nav-container-left"
+      style={style}
       ref={headerRef}
       onClick={() =>
         window.scrollTo({
@@ -25,7 +26,6 @@ export default function NavLeftContainer() {
           behavior: "smooth",
         })
       }
-      style={style}
     >
       <Header />
     </span>
